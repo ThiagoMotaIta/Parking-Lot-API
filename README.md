@@ -1,7 +1,4 @@
 # Parking system
-- Run docker-compose up
-- Run docker-compose exec my-app composer install -o
-- Run docker-compose exec my-app php artisan migrate
 
 # What i've done with this simple Parking API:
 
@@ -11,6 +8,11 @@
 - Usege of Strategy Design Patters (by creating Service Classes to provide dependency injection, avoiding buseness rules inside the Controllers);
 - Unit Tests with PHPUnit;
 - Containers (3 docker images: Laravel, Postgres and Cache);
+
+# Starting App
+- Run docker-compose up
+- Run docker-compose exec my-app composer install -o
+- Run docker-compose exec my-app php artisan migrate
 
 # Some prints of API endpoints
 
