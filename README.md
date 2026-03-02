@@ -1,4 +1,7 @@
 # Parking system
+- Run docker-compose up
+- Run docker-compose exec my-app composer install -o
+- Run docker-compose exec my-app php artisan migrate
 
 # What i've done with this simple Parking API:
 
