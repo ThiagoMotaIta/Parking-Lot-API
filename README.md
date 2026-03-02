@@ -9,7 +9,7 @@
 - Unit Tests with PHPUnit;
 - Containers (3 docker images: Laravel, Postgres and Cache);
 
-# Starting App
+# Starting Up the Project with DOCKER
 - Run _docker-compose up_
 - Run _docker-compose exec my-app composer install -o_
 - Run _docker-compose exec my-app php artisan migrate_
