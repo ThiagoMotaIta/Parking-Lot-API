@@ -10,9 +10,9 @@
 - Containers (3 docker images: Laravel, Postgres and Cache);
 
 # Starting App
-- Run ![#f03c15]docker-compose up
-- Run ![#f03c15]docker-compose exec my-app composer install -o
-- Run ![#f03c15]docker-compose exec my-app php artisan migrate
+- Run 'docker-compose up'
+- Run 'docker-compose exec my-app composer install -o'
+- Run 'docker-compose exec my-app php artisan migrate'
 
 # Some prints of API endpoints
 
